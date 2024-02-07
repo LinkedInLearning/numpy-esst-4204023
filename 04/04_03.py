@@ -1,0 +1,23 @@
+import numpy as np
+a = np.array([6, 2, 3, 14, 5, 9])
+b = np.array([2, 3, 4, 5, 26, 8])
+
+r1 = np.add(a , b)
+r2 = np.add(a , 5)
+r3 = np.subtract(a , b)
+r4 = np.multiply(a , b)
+r5 = np.divide(a , b)
+r6 = np.mod(a , b)
+r7 = np.power(a , b)
+r8 = np.sqrt(a)
+
+print("Erstes Array:",a)
+print("\nZweites Array:", b)
+print("\nErgebnis nach Addition:", r1)
+print("\nErgebnis nach Addition mit Skalar:", r2)
+print("\nErgebnis nach Subtraktion:", r3)
+print("\nErgebnis nach Multiplikation:", r4)
+print("\nErgebnis nach Division:", r5)
+print("\nErgebnis nach Modulo:", r6)
+print("\nErgebnis nach Potenzierung:", r5)
+print("\nErgebnis nach Wurzelziehung:", r8)

@@ -1,0 +1,11 @@
+import numpy as np 
+print("Zerlegen")
+a = np.arange(0,30)
+b = np.split(a,2)
+print(b, type(b), type(b[0]))
+c=np.array(b)
+print(c, c.shape)
+d = np.split(c,3, axis=1)
+print(d)
+e=np.array(d)
+print(e, e.shape)

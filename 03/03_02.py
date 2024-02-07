@@ -1,0 +1,11 @@
+import numpy as np 
+a = np.array([[1,2],[3,4]])
+b = np.array([[5,6],[7,8]])
+print(a)
+print(b)
+c = np.concatenate((a,b))
+print("np.concatenate((a,b))\n",c)
+d = np.concatenate((a,b), axis=0)
+print("np.concatenate((a,b), axis=0)\n", d)
+e = np.concatenate((a,b), axis=1)
+print("np.concatenate((a,b), axis=1)\n",e)
